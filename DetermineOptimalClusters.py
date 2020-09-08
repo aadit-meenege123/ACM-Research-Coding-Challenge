@@ -1,4 +1,3 @@
-
 """
 @author Aadit Meenege
 @date 9/7/20
@@ -12,7 +11,6 @@ from scipy.spatial.distance import cdist
 import numpy as np
 import matplotlib.pyplot as plt
 
-
 #Read in data 
 # Please input your source file or change the path while running the code.
 data = pd.read_csv('C:\\Users\\Aadit\\Downloads\\Assignment.csv')
@@ -20,8 +18,6 @@ data.head()
 #Loaded data into numpy array
 xAxis = data["V1"]
 yAxis = data["V2"]
-
-
 
 #start plotting data by using matplotlib.plylot library for scatter plot
 plt.plot()
@@ -50,19 +46,3 @@ plt.xlabel('k')
 plt.ylabel('Distortion')
 plt.title('The Elbow Method showing the optimal k')
 plt.show()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
