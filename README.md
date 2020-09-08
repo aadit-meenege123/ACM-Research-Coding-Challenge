@@ -1,20 +1,31 @@
-# ACM Research Coding Challenge (Fall 2020) ## Aadit Meenege
+# ACM Research Coding Challenge (Fall 2020) 
+## Author: Aadit Meenege
 
 As I started my research, I first learned about the difference between supervised and unsupervised learning. In supervised learning algorithms, data is labeled and helps predict outcomes for unforeseen outcomes; however, it mainly deals with unlabelled data in unsupervised learning. It can be unpredictable, but it finds most unknown patterns in data. This current project or coding challenge would be an example of unsupervised learning because we are not making any predictions instead we are determining the number of clusters. After deciding whether it's supervised or unsupervised, I researched into ten different types of clustering algorithms. K means clustering is the most widely used algorithm for clustering and assigns examples to clusters to reduce each cluster's variance. This example code fits the model on the dataset, and then a scatter plot is created with points in the “ClusterPlot.csv” dataset. 
 
-## Submission Procedure
+![Image of Cluster Plot](ClusterPlot.png)
+<br/>
 
-Please follow the below instructions on how to submit your answers.
-
-1. Create a **public** fork of this repo and name it `ACM-Research-Coding-Challenge`. To fork this repo, click the button on the top right and click the "Fork" button.
-2. Clone the fork of the repo to your computer using . `git clone [the URL of your clone]`. You may need to install Git for this (Google it).
-3. Complete the Challenge based on the instructions below.
-4. Email the link of your repo to research@acmutd.co with the same email you used to submit your application. Be sure to include your name in the email.
-
-## Question One
+There are multiple methods to determine the optimal number of clusters for the data, but the Elbow method is consistent and designed to help find the number of clusters in the data set. I copied the example code to find the optimal value for K and has roughly 3 to 4 clusters on the data set. 
 
 ![Image of Cluster Plot](ClusterPlot.png)
 <br/>
-Given the following dataset in `ClusterPlot.csv`, determine the number of clusters by using any clustering algorithm. **You're allowed to use any Python library you want to implement this**, just document which ones you used in this README file. Try to complete this as soon as possible.
 
-Regardless if you can or cannot answer the question, provide a short explanation of how you got your solution or how you think it can be solved in your README.md file.
+Throughout the code, I used five libraries called pandas, numpy, matplotlib.pyplot, sklearn.cluster, and scipy.spatial.distance to cluster or plot the data set, and determine the number of clusters (k) using the Elbow method. Additionally, while running the code, please change the source file path in file read statement (line 17). Comments are added to the code for readability. 
+
+Note: Below code also copied to Git. 
+
+![Image of Cluster Plot](ClusterPlot.png)
+<br/>
+
+![Image of Cluster Plot](ClusterPlot.png)
+<br/>
+
+ The following sources are listed below.
+
+“Supervised vs Unsupervised Learning: Key Differences.” Guru99, www.guru99.com/supervised-vs-unsupervised-learning.html. 
+Huneycutt, Jake. “An Introduction to Clustering Algorithms in Python.” Medium, Towards Data Science, 29 May 2018, towardsdatascience.com/an-introduction-to-clustering-algorithms-in-python-123438574097. 
+Brownlee, Jason. “10 Clustering Algorithms With Python.” Machine Learning Mastery, 20 Aug. 2020, machinelearningmastery.com/clustering-algorithms-with-python/. 
+Seif, George. “The 5 Clustering Algorithms Data Scientists Need to Know.” Medium, Towards Data Science, 14 Sept. 2019, towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68. 
+Asarudheen, Mohamed. “4 Best Ways to Find Optimal Number Of Clusters for Clustering - With Python Code.” Medium, Medium, 9 Sept. 2019, medium.com/@masarudheena/4-best-ways-to-find-optimal-number-of-clusters-for-clustering-with-python-code-706199fa957c. 
+Alade, Tola. “Tutorial: How to Determine the Optimal Number of Clusters for k-Means Clustering.” Medium, Cambridge Spark, 23 Dec. 2019, blog.cambridgespark.com/how-to-determine-the-optimal-number-of-clusters-for-k-means-clustering-14f27070048f. 
