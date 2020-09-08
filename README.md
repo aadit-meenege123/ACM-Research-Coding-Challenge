@@ -23,14 +23,14 @@ Note: Below code also copied to Git.
 
  The following sources are listed below.
 
-“Supervised vs Unsupervised Learning: Key Differences.” Guru99, www.guru99.com/supervised-vs-unsupervised-learning.html. 
+1. “Supervised vs Unsupervised Learning: Key Differences.” Guru99, https://www.guru99.com/supervised-vs-unsupervised-learning.html
 
-Huneycutt, Jake. “An Introduction to Clustering Algorithms in Python.” Medium, Towards Data Science, 29 May 2018, towardsdatascience.com/an-introduction-to-clustering-algorithms-in-python-123438574097. 
+2. Huneycutt, Jake. “An Introduction to Clustering Algorithms in Python.” Medium, Towards Data Science, 29 May 2018, https://towardsdatascience.com/an-introduction-to-clustering-algorithms-in-python-123438574097 
 
-Brownlee, Jason. “10 Clustering Algorithms With Python.” Machine Learning Mastery, 20 Aug. 2020, machinelearningmastery.com/clustering-algorithms-with-python/.
+3. Brownlee, Jason. “10 Clustering Algorithms With Python.” Machine Learning Mastery, 20 Aug. 2020, https://machinelearningmastery.com/clustering-algorithms-with-python/ 
 
-Seif, George. “The 5 Clustering Algorithms Data Scientists Need to Know.” Medium, Towards Data Science, 14 Sept. 2019, towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68. 
+4. Seif, George. “The 5 Clustering Algorithms Data Scientists Need to Know.” Medium, Towards Data Science, 14 Sept. 2019, https://towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68 
 
-Asarudheen, Mohamed. “4 Best Ways to Find Optimal Number Of Clusters for Clustering - With Python Code.” Medium, Medium, 9 Sept. 2019, medium.com/@masarudheena/4-best-ways-to-find-optimal-number-of-clusters-for-clustering-with-python-code-706199fa957c. 
+5. Asarudheen, Mohamed. “4 Best Ways to Find Optimal Number Of Clusters for Clustering - With Python Code.” Medium, Medium, 9 Sept. 2019, https://medium.com/@masarudheena/4-best-ways-to-find-optimal-number-of-clusters-for-clustering-with-python-code-706199fa957c 
 
-Alade, Tola. “Tutorial: How to Determine the Optimal Number of Clusters for k-Means Clustering.” Medium, Cambridge Spark, 23 Dec. 2019, blog.cambridgespark.com/how-to-determine-the-optimal-number-of-clusters-for-k-means-clustering-14f27070048f. 
+6. Alade, Tola. “Tutorial: How to Determine the Optimal Number of Clusters for k-Means Clustering.” Medium, Cambridge Spark, 23 Dec. 2019, https://blog.cambridgespark.com/how-to-determine-the-optimal-number-of-clusters-for-k-means-clustering-14f27070048f 
