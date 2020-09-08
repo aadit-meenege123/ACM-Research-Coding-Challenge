@@ -1,6 +1,4 @@
-# ACM Research Coding Challenge (Fall 2020)
-
-## Aadit Meenege
+# ACM Research Coding Challenge (Fall 2020) ## Aadit Meenege
 
 As I started my research, I first learned about the difference between supervised and unsupervised learning. In supervised learning algorithms, data is labeled and helps predict outcomes for unforeseen outcomes; however, it mainly deals with unlabelled data in unsupervised learning. It can be unpredictable, but it finds most unknown patterns in data. This current project or coding challenge would be an example of unsupervised learning because we are not making any predictions instead we are determining the number of clusters. After deciding whether it's supervised or unsupervised, I researched into ten different types of clustering algorithms. K means clustering is the most widely used algorithm for clustering and assigns examples to clusters to reduce each cluster's variance. This example code fits the model on the dataset, and then a scatter plot is created with points in the “ClusterPlot.csv” dataset. 
 
