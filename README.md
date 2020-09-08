@@ -8,17 +8,17 @@ As I started my research, I first learned about the difference between supervise
 
 There are multiple methods to determine the optimal number of clusters for the data, but the Elbow method is consistent and designed to help find the number of clusters in the data set. I copied the example code to find the optimal value for K and has roughly **3 to 4 clusters** on the data set. 
 
-![Image of Elbow Cluster Graph](ElbowCluterGraph.png)
+![Image of Elbow Cluster Graph](ElbowCluterGraph.PNG)
 <br/>
 
 Throughout the code, I used five libraries called **pandas, numpy, matplotlib.pyplot, sklearn.cluster, and scipy.spatial.distance to cluster or plot the data set, and determine the number of clusters (k) using the Elbow method**. Additionally, while running the code, please change the source file path in file read statement (line 17). Comments are added to the code for readability. 
 
 Note: Below code also copied to Git. 
 
-![Image of Code Snippet 1](CodeSnippet1.png)
+![Image of Code Snippet 1](CodeSnippet1.PNG)
 <br/>
 
-![Image of Code Snippet 2](CodeSnippet2.png)
+![Image of Code Snippet 2](CodeSnippet2.PNG)
 <br/>
 
  The following sources are listed below.
