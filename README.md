@@ -3,7 +3,7 @@
 
 As I started my research, I first learned about the difference between supervised and unsupervised learning. In supervised learning algorithms, data is labeled and helps predict outcomes for unforeseen outcomes; however, it mainly deals with unlabelled data in unsupervised learning. It can be unpredictable, but it finds most unknown patterns in data. This current project or coding challenge would be an example of unsupervised learning because we are not making any predictions instead we are determining the number of clusters. After deciding whether it's supervised or unsupervised, I researched into ten different types of clustering algorithms. K means clustering is the most widely used algorithm for clustering and assigns examples to clusters to reduce each cluster's variance. This example code fits the model on the dataset, and then a scatter plot is created with points in the “ClusterPlot.csv” dataset. 
 
-![Image of Cluster Plot](ScatterPlotGraph.png)
+![Image of Cluster Plot](ScatterPlotGraph.PNG)
 <br/>
 
 There are multiple methods to determine the optimal number of clusters for the data, but the Elbow method is consistent and designed to help find the number of clusters in the data set. I copied the example code to find the optimal value for K and has roughly **3 to 4 clusters** on the data set. 
